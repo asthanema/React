@@ -23,6 +23,7 @@ export default function Board() {
     setXIsNext(!xIsNext);
   }
 
+  //To Display the winner
   let status;
   if (winner) status = "Winner is :" + winner;
   else status = "Next Player :" + (xIsNext ? "X" : "O");
